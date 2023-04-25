@@ -1,0 +1,3 @@
+Flask~=2.2.3
+paddlenlp~=2.0.1
+numpy~=1.19.3
