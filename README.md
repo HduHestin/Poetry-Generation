@@ -10,7 +10,8 @@
 #### 1.Check_poetry.ipynb
 ##### Jupyter notebook文件.这里主要是用来测试集成的功能,只有几行调用,详细看Generate_poetry.py.
 #### 2.Generate_poetry.py
-##### 请关注87行载入生成模型处，第93行model.load('./final.pdparams'),本项目文件尚未上传该文件,后面给出获取文件的两种方式.
+##### 请关注87行载入生成模型处，第93行model.load('./final.pdparams')需要参数文件  
+##### 本项目文件尚未上传该文件,后面给出获取文件的两种方式.
 #### 3.Poetry-show.py
 ##### 两个函数,poetry-show函数先打印诗句，再返回一个诗句列表例如["飞流直下三千尺","疑是银河落九天"],便于后续传入前端界面.
 #### 4.app.py
